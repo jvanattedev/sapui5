@@ -8,10 +8,21 @@
     "sapui5"
   ],
   "main": "webapp/index.html",
-  "dependencies": {},
+  "dependencies": {
+    "jspdf": "^2.5.2",
+    "jspdf-autotable": "3.8.4",
+    "dompurify": "^3.2.1",
+    "html2canvas": "^1.4.1",
+    "gatacaqr": "^1.4.2",
+    "d3": "^7.9.0"
+  },
   "devDependencies": {
-    "@ui5/cli": "^3.0.0",
-    "@sap/ux-ui5-tooling": "1"
+    "@ui5/cli": "^4.0.10",
+    "@sap/ux-ui5-tooling": "^1.15.6",
+    "@sap/ux-specification": "UI5-1.120",
+    "@sap-ux/ui5-middleware-fe-mockserver": "^2.2.82",
+    "rimraf": "^6.0.1",
+    "ui5-bump-version": "^1.1.0"
   },
   "scripts": {
     "start": "fiori run --open \"test/flpSandbox.html?sap-ui-xx-viewCache=false#sapui5-display\"",
