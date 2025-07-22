@@ -35,7 +35,7 @@
   "sap.ui5": {
     "flexEnabled": true,
     "dependencies": {
-      "minUI5Version": "1.120.30",
+      "minUI5Version": "1.120.32",
       "libs": {
         "sap.m": {},
         "sap.ui.core": {}
@@ -69,8 +69,7 @@
         "type": "View",
         "viewType": "XML",
         "path": "sapui5.view",
-        "async": true,
-        "viewPath": "sapui5.view"
+        "async": true
       },
       "routes": [
         {
