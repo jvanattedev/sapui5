@@ -9,19 +9,19 @@
   ],
   "main": "webapp/index.html",
   "dependencies": {
-    "jspdf": "^3.0.2",
+    "jspdf": "^3.0.3",
     "jspdf-autotable": "5.0.2",
-    "dompurify": "^3.2.6",
+    "dompurify": "^3.3.0",
     "html2canvas": "^1.4.1",
     "gatacaqr": "^1.4.2",
     "d3": "^7.9.0",
     "qrcode": "^1.5.4"
   },
   "devDependencies": {
-    "@ui5/cli": "^4.0.23",
-    "@sap/ux-ui5-tooling": "^1.18.5",
+    "@ui5/cli": "^4.0.32",
+    "@sap/ux-ui5-tooling": "^1.19.3",
     "@sap/ux-specification": "UI5-1.120",
-    "@sap-ux/ui5-middleware-fe-mockserver": "^2.2.107",
+    "@sap-ux/ui5-middleware-fe-mockserver": "^2.3.16",
     "rimraf": "^6.0.1",
     "ui5-bump-version": "^1.1.0"
   },
