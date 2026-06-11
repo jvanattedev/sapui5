@@ -68,8 +68,7 @@
         "transition": "slide",
         "type": "View",
         "viewType": "XML",
-        "path": "sapui5.view",
-        "async": true
+        "path": "sapui5.view"
       },
       "routes": [
         {
